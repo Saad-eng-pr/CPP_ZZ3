@@ -14,6 +14,9 @@ class Nuage;
 template <typename T>
 T barycentre_v1(const Nuage<T> & nuage);
 
+template <typename Conteneur>
+typename Conteneur::value_type barycentre_v2(const Conteneur & conteneur);
+
 template <typename T>
 class Nuage {
     private:
@@ -24,6 +27,7 @@ class Nuage {
 
         using iterator = typename std::vector<T>::iterator;
         using const_iterator = typename std::vector<T>::const_iterator;
+        using value_type = typename std::vector<T>::value_type;
 
         const_iterator begin() const;
         const_iterator end() const;
@@ -67,6 +71,25 @@ Polaire barycentre_v1<Polaire>(const Nuage<Polaire> & nuage) {
     }
 
     return ( n == 0 ? Polaire() : Polaire(angleR/n, distanceR/n));
+}
+
+template <typename Conteneur>
+typename Conteneur::value_type barycentre_v2(const Conteneur & conteneur) {
+    Cartesien c;
+    double xR = 0.0;
+    double yR = 0.0;
+    int n = 0;
+
+    using point_t = typename Conteneur::value_type;
+
+    for (const point_t & p : conteneur) {
+        c = Cartesien(p);
+        xR += c.getX();
+        yR += c.getY();
+        ++n;
+    }
+
+    return ( n == 0 ? point_t() : point_t(Cartesien(xR/n, yR/n)));
 }
 
 // template <typename T>
