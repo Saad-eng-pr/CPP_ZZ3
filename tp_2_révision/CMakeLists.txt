@@ -16,16 +16,16 @@ endif ()
 # Sources #-----------------------------------------------------------------------------------------
 set ( PROJECT_HEADERS
       src/exemple.hpp
-      #src/cartesien.hpp
-      #src/nuage.hpp
-      #src/point.hpp
-      #src/polaire.hpp
+      src/cartesien.hpp
+      src/nuage.hpp
+      src/point.hpp
+      src/polaire.hpp
     )
 
 set ( PROJECT_SOURCES
-      #src/cartesien.cpp
-      #src/point.cpp
-      #src/polaire.cpp
+      src/cartesien.cpp
+      src/point.cpp
+      src/polaire.cpp
     )
 
 set ( TEST_HEADERS

@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/build",
+  "command": "/usr/bin/c++  -I/home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/src -Wall -Wextra -pedantic  -std=gnu++17 -o CMakeFiles/common.dir/src/cartesien.cpp.o -c /home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/src/cartesien.cpp",
+  "file": "/home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/src/cartesien.cpp"
+},
+{
+  "directory": "/home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/build",
+  "command": "/usr/bin/c++  -I/home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/src -Wall -Wextra -pedantic  -std=gnu++17 -o CMakeFiles/common.dir/src/point.cpp.o -c /home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/src/point.cpp",
+  "file": "/home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/src/point.cpp"
+},
+{
+  "directory": "/home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/build",
+  "command": "/usr/bin/c++  -I/home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/src -Wall -Wextra -pedantic  -std=gnu++17 -o CMakeFiles/common.dir/src/polaire.cpp.o -c /home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/src/polaire.cpp",
+  "file": "/home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/src/polaire.cpp"
+},
+{
+  "directory": "/home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/build",
+  "command": "/usr/bin/c++   -Wall -Wextra -pedantic  -std=gnu++17 -o CMakeFiles/test.dir/test/catch.cpp.o -c /home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/test/catch.cpp",
+  "file": "/home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/test/catch.cpp"
+},
+{
+  "directory": "/home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/build",
+  "command": "/usr/bin/c++  -I/home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/src -Wall -Wextra -pedantic  -std=gnu++17 -o CMakeFiles/tp2_nuage.dir/src/main_nuage.cpp.o -c /home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/src/main_nuage.cpp",
+  "file": "/home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/src/main_nuage.cpp"
+},
+{
+  "directory": "/home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/build",
+  "command": "/usr/bin/c++  -I/home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/src -Wall -Wextra -pedantic  -std=gnu++17 -o CMakeFiles/tp2_test.dir/test/tp2_test.cpp.o -c /home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/test/tp2_test.cpp",
+  "file": "/home/saamal/shared/ZZ3/CPP/Révision/tp_2_révision/test/tp2_test.cpp"
+}
+]
