@@ -8,6 +8,25 @@
 #include "polaire.hpp"
 #include "point.hpp"
 
+template <typename T>
+class Nuage;
+
+template <typename T>
+Cartesien barycentre_v1(const Nuage<T> & nuage) {
+    Cartesien c;
+    double xR = 0.0;
+    double yR = 0.0;
+    int n = 0;
+
+    for (T t : nuage) {
+        t.convertir(c);
+        xR += c.getX();
+        yR += c.getY();
+        ++n;
+    }
+
+    return ( n == 0 ? Cartesien() : Cartesien(xR/n, yR/n));
+}
 
 template <typename T>
 class Nuage {
@@ -32,7 +51,7 @@ class Nuage {
 };
 
 // template <typename T>
-// Nuage<T>::Nuage() {}
+// Nuage<T>::Nuage() {}  //on la remplacer par Nuage() = default;
 
 template <typename T>
 typename Nuage<T>::const_iterator Nuage<T>::begin() const {
@@ -63,5 +82,7 @@ template <typename T>
 void Nuage<T>::ajouter(const T & t) {
     points.push_back(t);
 }
+
+
 
 #endif
