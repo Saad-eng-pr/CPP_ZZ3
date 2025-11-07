@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/saamal/shared/ZZ3/CPP/Révision/tp_3_révision/build",
+  "command": "/usr/bin/c++   -Wall -Wextra -pedantic  -std=gnu++17 -o CMakeFiles/test.dir/test/catch.cpp.o -c /home/saamal/shared/ZZ3/CPP/Révision/tp_3_révision/test/catch.cpp",
+  "file": "/home/saamal/shared/ZZ3/CPP/Révision/tp_3_révision/test/catch.cpp"
+},
+{
+  "directory": "/home/saamal/shared/ZZ3/CPP/Révision/tp_3_révision/build",
+  "command": "/usr/bin/c++  -I/home/saamal/shared/ZZ3/CPP/Révision/tp_3_révision/src -Wall -Wextra -pedantic  -std=gnu++17 -o CMakeFiles/tp3_test.dir/test/tp3_test.cpp.o -c /home/saamal/shared/ZZ3/CPP/Révision/tp_3_révision/test/tp3_test.cpp",
+  "file": "/home/saamal/shared/ZZ3/CPP/Révision/tp_3_révision/test/tp3_test.cpp"
+}
+]

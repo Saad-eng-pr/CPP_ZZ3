@@ -5,7 +5,7 @@
 #include <tuple>
 #include <demangle.hpp>
 
-//#include <chaine.hpp>
+#include <chaine.hpp>
 //#include <cosinus.hpp>
 //#include <exponentielle.hpp>
 
@@ -14,7 +14,7 @@
 template <typename T> std::string type_name(T && x) { return demangle(typeid(x).name()); }
 
 //------------------------------------------------------------------------------------------------ 1
-/*TEST_CASE ( "TP3_Chaine::Exception" ) {
+TEST_CASE ( "TP3_Chaine::Exception" ) {
  int erreur = 0;
 
  long i{};
@@ -45,10 +45,10 @@ template <typename T> std::string type_name(T && x) { return demangle(typeid(x).
  }
 
  REQUIRE ( erreur == 2 );
-}*/
+}
 
 //------------------------------------------------------------------------------------------------ 2
-/*TEST_CASE ( "TP3_Chaine::ConversionSimple" ) {
+TEST_CASE ( "TP3_Chaine::ConversionSimple" ) {
  std::string n = "Smith";
  int i = 10;
  double d = 13.27;
@@ -86,7 +86,7 @@ template <typename T> std::string type_name(T && x) { return demangle(typeid(x).
  }
 
  REQUIRE ( erreur == 4 );
-}*/
+}
 
 //------------------------------------------------------------------------------------------------ 3
 /*TEST_CASE ( "TP3_Chaine::ConversionVariadic" ) {
